@@ -12,15 +12,19 @@
       "git add"
     ]
   },
-  "husky":{
-    "hooks":{
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "standard": {
+    "env": ["jest"]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
     "standard": "^16.0.3"
   }
